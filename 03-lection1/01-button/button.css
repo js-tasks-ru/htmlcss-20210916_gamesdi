@@ -11,39 +11,40 @@
     padding-right: 30px;
 }
 
-.button__primary {
-    color: white;
+.button_primary {
+    color: var(--white);
     border-color: var(--blue);
     background-color: var(--blue);
     border-style: none;
 }
 
-.button__primary:hover {
+.button_primary:hover {
     background-color: #2342C0;
 }
 
 :disabled {
     opacity: 0.5;
     cursor: not-allowed;
+    pointer-events: none;
 }
 
-.button__secondary {
+.button_secondary {
     color: white;
     border-color: var(--purple);
     background-color: var(--purple);
     border-style: none;
 }
-.button__secondary:hover {
+.button_secondary:hover {
     background-color: #5028C6;
 }
 
-.button__alternate {
+.button_alternate {
     color: var(--grey-4);
     border: 1px solid #ACB5BD;
     background-color: white;
 }
 
-.button__alternate:hover {
+.button_alternate:hover {
     border: 1px solid #212429;
 }
 
