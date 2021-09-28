@@ -1,7 +1,7 @@
 .accordion__summery {
     height: auto;
     width: 730px;
-    background-color: #FFFFFF;
+    background-color: var(--white);
     border: 1px solid var(--grey-3);
     border-radius: 8px;
     padding-left: 32px;
