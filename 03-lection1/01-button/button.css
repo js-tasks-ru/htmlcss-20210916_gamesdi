@@ -17,32 +17,6 @@
     color: var(--white);
     border-color: var(--blue);
     background-color: var(--blue);
-    border-style: none;
-}
-
-.button_primary:hover {
-    background-color: var(--blue-2);
-}
-
-.button:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-    pointer-events: none;
-}
-
-.button__secondary {
-    color: var(--white);
-    white-space: nowrap;
-    padding-left: 30px;
-    padding-right: 30px;
-    box-sizing: border-box;
-    border-style: none;
-}
-
-.button_primary {
-    color: var(--white);
-    border-color: var(--blue);
-    background-color: var(--blue);
 }
 
 .button_primary:hover {
@@ -56,33 +30,22 @@
 }
 
 .button_secondary {
-    color: var(--white);
-    border-color: var(--purple);
     background-color: var(--purple);
-    border-style: none;
+    color: var(--white);
+    white-space: nowrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
 }
 
-.button__secondary:hover {
-    background-color: var(--blue-3);
-}
-
-.button__alternate {
-    color: var(--grey-4);
-    border: 1px solid var(--grey-3);
-    background-color: var(--white);
-}
-
-.button__alternate:hover {
-    border: 1px solid var(--black);
-}
 .button_secondary:hover {
-    background-color: var(--blue);
+    background-color: var(--blue-3);
 }
 
 .button_alternate {
     color: var(--grey-4);
-    background-color: var(--white);
     border: 1px solid var(--grey-3);
+    background-color: var(--white);
 }
 
 .button_alternate:hover {
