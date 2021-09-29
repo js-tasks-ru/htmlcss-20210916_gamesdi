@@ -81,11 +81,10 @@
 
 .button_alternate {
     color: var(--grey-4);
-    border: 1px solid var(--grey-3);
     background-color: var(--white);
+    border: 1px solid var(--grey-3);
 }
 
 .button_alternate:hover {
     border: 1px solid var(--black);
 }
-
