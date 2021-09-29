@@ -13,12 +13,16 @@
     --grey-4: #495057;
     --blue-2:  #2342C0;
     --blue-3: #5028C6;
+    --blue-4: #4263EB;
 
     --error: var(--red);
     --success: var(--blue);
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --text-primary: var(--black);
+    --text-alternative: var(--white)
 }
 
 * {
