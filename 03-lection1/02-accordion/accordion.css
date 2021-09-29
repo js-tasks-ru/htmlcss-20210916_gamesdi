@@ -12,12 +12,12 @@
     line-height: 24px;
 }
 
-.summary_marker {
+.summary__marker {
     font-size: 16px;
     line-height: 24px;
 }
 
-.summary_marker:first-of-type {
+.summary__marker:first-of-type {
     list-style: none;
 }
 
