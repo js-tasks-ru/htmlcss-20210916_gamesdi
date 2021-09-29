@@ -1,47 +1,91 @@
+/* Стилизация кнопки */
 .button {
     height: 48px;
-    width: 182px;
     border-radius: 8px;
     font-size: 16px;
     padding-top: 15px;
     padding-bottom: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
     cursor: pointer;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+    box-sizing: border-box;
+    border-style: none;
 }
 
-.button__primary {
-    color: white;
+.button_primary {
+    color: var(--white);
     border-color: var(--blue);
     background-color: var(--blue);
     border-style: none;
 }
 
-.button__primary:hover {
-    background-color: #2342C0;
+.button_primary:hover {
+    background-color: var(--blue-2);
 }
 
-:disabled {
+.button:disabled {
     opacity: 0.5;
     cursor: not-allowed;
+    pointer-events: none;
 }
 
 .button__secondary {
-    color: white;
+    color: var(--white);
+    white-space: nowrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.button_primary {
+    color: var(--white);
+    border-color: var(--blue);
+    background-color: var(--blue);
+}
+
+.button_primary:hover {
+    background-color: var(--blue-2);
+}
+
+.button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.button_secondary {
+    color: var(--white);
     border-color: var(--purple);
     background-color: var(--purple);
     border-style: none;
 }
+
 .button__secondary:hover {
-    background-color: #5028C6;
+    background-color: var(--blue-3);
 }
 
 .button__alternate {
     color: var(--grey-4);
-    border: 1px solid #ACB5BD;
-    background-color: white;
+    border: 1px solid var(--grey-3);
+    background-color: var(--white);
 }
 
 .button__alternate:hover {
-    border: 1px solid #212429;
+    border: 1px solid var(--black);
+}
+.button_secondary:hover {
+    background-color: var(--blue);
+}
+
+.button_alternate {
+    color: var(--grey-4);
+    border: 1px solid var(--grey-3);
+    background-color: var(--white);
+}
+
+.button_alternate:hover {
+    border: 1px solid var(--black);
 }
 
