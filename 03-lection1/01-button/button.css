@@ -9,14 +9,8 @@
     padding-right: 30px;
     cursor: pointer;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
-<<<<<<< HEAD
-    white-space: nowrap;
-    padding-left: 30px;
-    padding-right: 30px;
-=======
     box-sizing: border-box;
     border-style: none;
->>>>>>> master
 }
 
 .button_primary {
@@ -26,11 +20,7 @@
 }
 
 .button_primary:hover {
-<<<<<<< HEAD
-    background-color: #2342C0;
-=======
     background-color: var(--blue-2);
->>>>>>> master
 }
 
 .button:disabled {
@@ -40,26 +30,13 @@
 }
 
 .button_secondary {
-<<<<<<< HEAD
-    color: white;
-    border-color: var(--purple);
-=======
->>>>>>> master
     background-color: var(--purple);
     color: var(--white);
     white-space: nowrap;
-    padding-left: 30px;
-    padding-right: 30px;
-    box-sizing: border-box;
 }
-<<<<<<< HEAD
-.button_secondary:hover {
-    background-color: #5028C6;
-=======
 
 .button_secondary:hover {
     background-color: var(--blue-3);
->>>>>>> master
 }
 
 .button_alternate {
@@ -69,11 +46,7 @@
 }
 
 .button_alternate:hover {
-<<<<<<< HEAD
-    border: 1px solid #212429;
-=======
     border: 1px solid var(--black);
->>>>>>> master
 }
 
 
