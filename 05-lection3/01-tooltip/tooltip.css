@@ -1,0 +1,28 @@
+.tooltip {
+    display: inline-block;
+    position: relative; 
+
+}
+
+.tooltip__trigger {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.tooltip__bubble {
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: var(--blue);
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 20px; 
+
+}
+
+.tooltip__trigger:hover ~ .tooltip__bubble {
+    display: block; 
+}
