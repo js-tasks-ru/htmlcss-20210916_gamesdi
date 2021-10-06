@@ -1,26 +1,34 @@
 .tooltip {
     display: inline-block;
     position: relative; 
-
 }
 
 .tooltip__trigger {
     width: 24px;
     height: 24px;
     cursor: pointer;
+    position: relative;
 }
 
 .tooltip__bubble {
-    width: 130px;
-    height: 45px;
     border-radius: 10px;
     background-color: var(--blue);
     display: none;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, 8px);
     padding: 20px; 
+    color: var(--white);
+    white-space: nowrap;
+}
 
+.tooltip__bubble::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, calc(-100% - 20px));
+    border: 14px solid transparent;
+    border-bottom: 8px solid var(--blue);
 }
 
 .tooltip__trigger:hover ~ .tooltip__bubble {
